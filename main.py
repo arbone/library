@@ -1,6 +1,7 @@
 from library import check_book
 from library import check_author
 from library import check_year
+from library import check_genre
 
 check_book("The Old Man And The Sea")
 check_book("1984")
@@ -15,16 +16,10 @@ check_book("Awake The Giant Within")
 check_book("The Old Man and the Sea")
 check_book("Romeo and Juliet")
 check_book("A Farewell to Arms")
-<<<<<<< HEAD
 check_book("Cosa vuoi davvero?")
 check_book("Intelligenza emotiva")
-=======
-
 check_book("Cosa vuoi davvero?")
-
 check_book("Intelligenza emotiva")
-
->>>>>>> a2339a33e03ee1160cb32d823aec262af238c1f2
 check_book("People We Meet on Vacation")
 check_book("Malibu Rising")
 check_book("The Four Winds")
@@ -46,7 +41,6 @@ check_book("What Happened To You?: Conversations on Trauma, Resilience, and Heal
 check_book("Empire of Pain: The Secret History of the Sackler Dynasty")
 check_book("The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together")
 
-<<<<<<< HEAD
 check_author("Jane Austen")
 check_author("Gabriele D Annunzio")
 check_author("Emily Henry")
@@ -105,34 +99,3 @@ check_genre('Commedy')
 check_genre('Commentary')
 check_genre('Essay')
 check_genre('Crime')
-=======
-
-check_author("Jane Austen")
-check_author("Gabriele D'Annunzio")
-check_author("Emily Henry")
-check_author("Taylor Jenkins Reid")
-check_author("Kristin Hannah")
-check_author("Laura Dave")
-check_author("Amor Towles")
-check_author("Andry Weir")
-check_author("Kazuo Ishiguro")
-check_author("Ashley Audrain")
-check_author("Sally Rooney")
-check_author("Laine Moriarty")
-check_author("T.J. Klune")
-check_author("Anthony Doerr")
-check_author("Michelle Zauner")
-check_author("Adam Grant")
-check_author("Suleika Jaquad")
-check_author("John Green")
-check_author("Bill Gates")
-check_author("Oprah Winfrey")
-check_author("Radden Keefe")
-check_author("Heather McGhee")
-
-
-
-check_author("Jane Austen")
-check_author("Gabriele D'Annunzio")
-check_author("Umberto Eco")
->>>>>>> a2339a33e03ee1160cb32d823aec262af238c1f2
