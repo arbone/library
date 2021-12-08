@@ -128,9 +128,3 @@ def check_genre(book_genre):
 
     if not found:
         print("Sorry there aren't books in the {} category, try again".format(genre))
-        if year == pub_year:
-            print("{} published {} in {} ".format(author, title, year))
-            found = True
-
-    if not found:
-        print("Sorry we don't have any books published in the year {} ".format(year))
