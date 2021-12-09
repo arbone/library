@@ -83,9 +83,8 @@ def check_book(title):
         year = field[1]
         genre = field[2]
         
-        print("The title {} is written by {}, and it was published in {}".format(title, author, year,))
-        #print ("The title {} is a {} book written by {}, published in year {} and counts {} words".format(title, author, genre, year, words,))
-        
+        print("The title {} is written by {}, and it was published in {}".format(title, author, year))
+       
     else:
         print("The title {} is not present in our catalogue".format(title))
 
@@ -95,7 +94,6 @@ def check_author(author_name):
         author = field[0]
         year = field[1]
         genre = field[2]
-        
         if author == author_name:
             print("{} published {} in {} ".format(author_name, title, year))
             found = True
@@ -116,15 +114,17 @@ def check_year(year):
     if not found:
         print("Sorry we don't have any books published in the year {} ".format(year))
         
-def check_genre(book_genre):
-    found = False
-    for title, field in list_of_books.items():
-        author = field[0]
-        pub_year = field[1]
-        genre = field[2]
-        if genre == book_genre:
-            print("{} of {} is a {} ".format(title, author, genre))
-            found = True
 
-    if not found:
-        print("Sorry there aren't books in the {} category, try again".format(genre))
+def check_genre(book_genre):
+     found = False
+     for title, field in list_of_books.items():
+         author = field[0]
+         pub_year = field[1]
+         genre = field[2]
+         if genre == book_genre:
+             print("{} of {} is a {} ".format(title, author, genre, pages))
+             found = True
+
+     if not found:
+            print("Sorry there aren't books in the {} category, try again".format(genre))
+           
