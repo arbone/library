@@ -122,7 +122,7 @@ def check_genre(book_genre):
          pub_year = field[1]
          genre = field[2]
          if genre == book_genre:
-             print("{} of {} is a {} ".format(title, author, genre))
+             print("{} of {} is a {} book".format(title, author, genre))
              found = True
 
      if not found:
